@@ -1,0 +1,56 @@
+
+.header__section{
+   
+
+    a{
+        display: block;
+        padding: .5rem 1rem;
+        color: #333;
+        text-transform: capitalize;
+        font-weight: 100;
+    }
+
+    .brand img{
+        width: 100%;
+    }
+    .brand {
+	width: 10%;
+    
+}
+
+   
+}
+
+
+.hero__section{
+    .hero__content{
+        text-align: center;
+
+        h2{
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        p{
+          color: #393E46;  
+        }
+       
+    }
+}
+
+
+
+.perspective{
+    .perspective__content{
+        text-align: center;
+        h2{
+            margin-bottom: 0rem;
+        }
+        p{
+            padding: 1rem;
+        }
+    }
+    .left__content {
+        padding: 5rem;
+    }
+}

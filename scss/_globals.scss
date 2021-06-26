@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ========== Colors ========== */
+:root {
+    --default: #433ae0;
+    --bg-color: #01000c;
+    --dark-color: #3c4858;
+    --grey: #8492a6;
+    --white: #fff;
+    --black: #000;
+}
+
+
+/* ========== Reset ========== */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+
+a{
+  text-decoration: none;
+
+  
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+body {
+  font-family: 'Space Mono',
+monospace;
+ font-family: "Dosis", sans-serif;
+font-size: 1.8rem;
+ 
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+
+html{
+  font-size: 62%;
+}
+
+
+.container{
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.item-s-b{
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.p-y{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.p-y-2{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.col-1-1{
+  width: 100%;
+}
+
+.col-1-2{
+  width: 50%;
+}
+
+ h2{
+     color: #333;
+  }
+
+p{
+  color: #393E46;  
+}
+
+
+.item-s{
+  align-items: center;
+  justify-content: center;
+}
